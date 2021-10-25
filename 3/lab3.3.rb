@@ -1,5 +1,6 @@
 $x = 2
 $result = 1
+
 for i in 1..10
   val =  i % 2 == 0 ? 1 : -1
   $result += val*($x**i)*(1+i)/(2+i)

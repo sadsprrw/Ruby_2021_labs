@@ -13,5 +13,4 @@ else
   $y = 1.0/(1 + $x/(1 + $x/(1+$x)))
   end
 end
-
 print "y = " + $y.to_s, "\n"

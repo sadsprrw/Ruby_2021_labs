@@ -51,7 +51,6 @@ def func_z(x)
 end
 
 print "4) Result: \n"
-
 print "--------1-------- \n"
 1.step($n, ($n - 1).to_f / ($n + $c)) do |i|
   puts func_y(i)
